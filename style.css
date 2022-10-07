@@ -1,0 +1,216 @@
+*{
+    margin :0;
+    box-sizing :border-box ;
+    padding :0;
+    font-family: sans-serif;
+
+} 
+div{
+    color: black;
+}
+#img{
+    width: 15vh;
+    height: 15vh;
+    margin-top: 2%;
+    margin-bottom: -100px ;
+    border: 1px  solid whitesmoke ;
+    background: whitesmoke;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px 5px black;
+    position: absolute;
+    left: 82%;
+    
+}
+#img2{
+width: 90%; 
+height: 250px;
+border-radius: 5px;
+box-shadow: 2px 2px 2px 2px black;
+
+}
+p{
+    color :whitesmoke;
+
+}
+main{ 
+height :100vh;
+width :100%;
+text-shadow: 2px 2px 4px black;
+text-align :center ;
+display :flex ;
+flex-direction :column;
+background : radial-gradient(cyan,blue);
+border: 1px solid #ff7400;
+} 
+
+h1{
+ font-size: 55px;   
+color: orangered;
+margin-top :30px;
+font-family: 'Times New Roman', Times, serif;
+} 
+
+span{
+color :black;
+text-shadow: none;
+
+} 
+h4{
+    text-shadow: none;
+padding-bottom:2%;
+color :black;
+animation :anim 3s  ease-in;
+} 
+nav{
+
+margin-top :500%;
+width :80%;
+height :5vh ;
+margin:0vh ;
+display :flex ;
+align-items :center ;
+justify-content :center ;
+font-size:0.7em;
+border-radius :3px;
+
+
+
+
+} 
+.category{
+font-size :1em ;
+width :auto;
+margin :auto ;
+color :whitesmoke;
+padding: 5px 10px;
+cursor: pointer;
+}
+.category:hover{
+    color: whitesmoke;
+    transition: 6s linear ease-in-out;
+    background: linear-gradient(blue,cyan);
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#sect{
+
+height :70%;
+width :100%;
+display :flex ;
+align-items :center ;
+justify-content :center ;
+border-radius :0.5rem;
+
+
+}
+
+footer {
+background :whitesmoke;
+border-radius :0.35rem;
+font-weight :700;
+position :relative;
+left:15vh;
+height :2px;
+margin-bottom :5vh;
+animation :anim 3s  linear infinite ;
+
+}
+@keyframes anim {
+
+0%{
+
+width :0vh ;
+
+}
+
+100%{
+width :82%;
+
+}
+
+}
+
+
+@media (max-width: 425px) {
+ #img{
+    width: 50px;
+    height: 50px;
+ }
+ body{
+    font-size: small;
+ }
+ nav{
+    margin: 0 auto;
+ }
+ 
+  }
+
+
+#span{
+    color :orangered;
+    text-shadow: none;
+    animation :anime 3s ;
+    }
+@keyframes anime {
+0%{    
+transform: rotate(0deg);
+}
+100%{
+
+transform: rotate(360deg);
+}
+}
+#loading {
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+  }
+  
+  #bgvideo {
+    
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    min-height: 100%;
+  }
+
+.info{
+color: orangered;
+height :100%;
+flex :1;
+margin: 10px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction:column;
+
+
+}
+
+
+#insidesect{
+background :red ;
+flex:1;
+
+}
+#hh{
+    color: whitesmoke;
+    text-shadow: 2px 2px 7px black;
+    
+    width: 200px;
+    margin: 30px auto;
+    animation :anim 7s  linear ease-in ;
+    font-size: 15px;
+    padding: 5px;
+    animation :anim 3s  linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    }
